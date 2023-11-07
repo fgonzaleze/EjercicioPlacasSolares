@@ -3,48 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjercicioPlacasSolares.MainPage">
 
-    <ScrollView>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="0.5*" />
-            </Grid.ColumnDefinitions>
-
-            <!-- Contenido en la columna 1 -->
-            <StackLayout Grid.Column="1"
-                 VerticalOptions="Center" 
-                 HorizontalOptions="Center"
-                 Padding="40">
-                <HorizontalStackLayout>
-                    <Label Text="Usuario:"
-                   Margin="5"
-                   Padding="5"
-                   FontSize="Subtitle"
-                   FontFamily="Arial Narrow"/>
-                    <Entry Placeholder="Usuario"
-                   Margin="5"/>
-                </HorizontalStackLayout>
-                <HorizontalStackLayout>
-                    <Label Text="Contraseña:"
-                   Margin="5"
-                   Padding="5"
-                   FontSize="Subtitle"
-                   FontFamily="Arial Narrow"/>
-                    <Entry Margin="5"
-                   Placeholder="Contraseña"
-                   IsPassword="true"/>
-                </HorizontalStackLayout>
-                <Button Text="Acceder" Margin="5"/>
-            </StackLayout>
-
-            <!-- Imagen en la columna 0 -->
-            <FlexLayout Grid.Column="0"
-                HorizontalOptions="FillAndExpand" 
-                Wrap="Wrap">
-                <Image 
-                    Source="solarpanel.jpg"/>
-            </FlexLayout>
-        </Grid>
-    </ScrollView>
+    
 
 </ContentPage>

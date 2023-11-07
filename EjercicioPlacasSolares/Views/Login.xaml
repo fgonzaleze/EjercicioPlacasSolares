@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioPlacasSolares.Login"
+             Title="Login"
+             BackgroundImageSource="solarpanel.jpg">
+    
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="1"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center"
+             Padding="40"
+                         BackgroundColor="White">
+                <StackLayout>
+                    <Label 
+                    HorizontalTextAlignment="Center"
+                    Text="Usuario:"
+               Margin="5"
+               Padding="5"
+               FontSize="Subtitle"
+               FontFamily="Arial Narrow"/>
+                    <Entry Placeholder="Usuario"
+               Margin="5"/>
+                </StackLayout>
+                <StackLayout>
+                    <Label 
+                    HorizontalTextAlignment="Center"
+                    Text="Contraseña:"
+               Margin="5"
+               Padding="5"
+               FontSize="Subtitle"
+               FontFamily="Arial Narrow"/>
+                    <Entry
+                    Margin="5"
+                   Placeholder="Contraseña"
+                   IsPassword="true"/>
+                </StackLayout>
+                <Button Text="Acceder" Margin="5"
+                        Clicked="btnClicker"/>
+            </StackLayout>
+
+
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

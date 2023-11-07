@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioPlacasSolares.Views.Citas"
+             Title="Citas">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+            Text="Citas: "
+            FontSize="Medium"/>
+            <Label
+            Text="Datos de la cita"/>
+            <Button
+                Text="Información"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
