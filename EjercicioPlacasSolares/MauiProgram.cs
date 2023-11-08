@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace EjercicioPlacasSolares
+namespace EjercicioPlacasSolares.Views
 {
     public static class MauiProgram
     {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="EjercicioPlacasSolares.Login"
+             x:Class="EjercicioPlacasSolares.Views.Login"
              Title="Login"
              BackgroundImageSource="solarpanel.jpg">
     
@@ -21,6 +21,7 @@
                     <Label 
                     HorizontalTextAlignment="Center"
                     Text="Usuario:"
+                        TextColor="Black"
                Margin="5"
                Padding="5"
                FontSize="Subtitle"
@@ -30,6 +31,7 @@
                 </StackLayout>
                 <StackLayout>
                     <Label 
+                        TextColor="Black"
                     HorizontalTextAlignment="Center"
                     Text="Contraseña:"
                Margin="5"
@@ -42,7 +44,10 @@
                    IsPassword="true"/>
                 </StackLayout>
                 <Button Text="Acceder" Margin="5"
-                        Clicked="btnClicker"/>
+                        TextColor="Black"
+                        FontAttributes="Bold"
+                        Clicked="btnClicker"
+                        BackgroundColor="Orange"/>
             </StackLayout>
 
 

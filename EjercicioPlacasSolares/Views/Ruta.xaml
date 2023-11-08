@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioPlacasSolares.Views.Ruta"
+             Title="Ruta"
+             IconImageSource="ruta.png">
+    <VerticalStackLayout Margin="10">
+        <Label 
+            Text="Destino: IES Nervión"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" /> 
+        <Label 
+            Text="C. Prof. Buenaventura Pinillos, 2, 41005 Sevilla"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"  
+            Margin="8"/>
+
+        <Button Text="Mapa" Margin="5"
+        TextColor="Black"
+        FontAttributes="Bold"
+        Clicked="btn"
+        BackgroundColor="Orange"/>
+    </VerticalStackLayout>
+</ContentPage>

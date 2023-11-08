@@ -1,10 +1,8 @@
 namespace EjercicioPlacasSolares.Views;
 
-public partial class Citas : ContentPage
+public partial class Notas : ContentPage
 {
-
-
-	public Citas()
+	public Notas()
 	{
 		InitializeComponent();
 	}

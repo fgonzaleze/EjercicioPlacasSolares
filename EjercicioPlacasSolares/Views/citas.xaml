@@ -2,16 +2,96 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjercicioPlacasSolares.Views.Citas"
-             Title="Citas">
+             Title="Tareas"
+             IconImageSource="note.png"
+             BackgroundColor="PaleVioletRed">
     <ScrollView>
+    <VerticalStackLayout>
+         <Image     
+              Source="note.png"
+              MaximumWidthRequest="60"
+             Margin="9"/>
+        <Label 
+          FontSize="Large"
+          Text="Tareas"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
         <VerticalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <CheckBox/>
+                    <Label      HorizontalTextAlignment="Center"
+                        Padding="4"
+                        Text="Comprobar electricidad"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+            </HorizontalStackLayout>
             <Label 
-            Text="Citas: "
-            FontSize="Medium"/>
-            <Label
-            Text="Datos de la cita"/>
-            <Button
-                Text="Información"/>
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="8"
+                            TextColor="Black"
+                            Text="Lorem fistrum torpedo qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+        </VerticalStackLayout>
+            <VerticalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <CheckBox/>
+                    <Label      HorizontalTextAlignment="Center"
+                        Padding="4"
+                        Text="Instalar postes"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                </HorizontalStackLayout>
+                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="8"
+                            TextColor="Black"
+                            Text="Lorem fistrum torpedo qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar "/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <CheckBox/>
+                    <Label      HorizontalTextAlignment="Center"
+                        Padding="4"
+                        Text="Arreglar soporte metálico"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                </HorizontalStackLayout>
+                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="8"
+                            TextColor="Black"
+                            Text=" A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+            </VerticalStackLayout>
+            <VerticalStackLayout>
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <CheckBox/>
+                    <Label      HorizontalTextAlignment="Center"
+                        Padding="4"
+                        Text="Instalación placas fotovoltaicas"
+                        TextColor="Black"
+                        FontSize="Default"
+                        FontFamily="Roboto"
+                        FontAttributes="Bold"
+                        Margin="4"/>
+                </HorizontalStackLayout>
+                <Label 
+                            FontFamily="Roboto"
+                            Margin="5"
+                            Padding="8"
+                            TextColor="Black"
+                            Text="Lorem fistrum torpedo qué dise usteer a gramenawer condemor pecador caballo blanco caballo negroorl te va a hasé pupitaa papaar papaar está la cosa muy malar tiene musho peligro. A gramenawer fistro te voy a borrar el cerito se calle ustée amatomaa a peich jarl pecador jarl ahorarr ahorarr. Papaar papaar qué dise usteer ese pedazo de la caidita. A gramenawer ese pedazo de a wan al ataquerl. "/>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

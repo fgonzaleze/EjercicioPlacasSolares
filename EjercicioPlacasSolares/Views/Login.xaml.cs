@@ -1,4 +1,4 @@
-namespace EjercicioPlacasSolares;
+namespace EjercicioPlacasSolares.Views;
 
 public partial class Login : ContentPage
 {
@@ -9,6 +9,6 @@ public partial class Login : ContentPage
 
     private async void btnClicker(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new TabbedPage());
+        await Navigation.PushAsync(new PaginaTabbed());
     }
 }

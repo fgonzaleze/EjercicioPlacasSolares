@@ -1,13 +1,11 @@
-﻿namespace EjercicioPlacasSolares
+﻿namespace EjercicioPlacasSolares.Views;
+
+public partial class App : Application
 {
-    public partial class App : Application
+    public App()
     {
-        public App()
-        {
-            InitializeComponent();
+        InitializeComponent();
+        MainPage = new NavigationPage(new Login()); // Para el login
 
-            MainPage = new NavigationPage(new Login()); // Para el login
-
-        }
     }
 }
